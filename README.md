@@ -17,12 +17,8 @@ Here's a full step-by-step guide using Terraform. ( we will perform everything i
 4. A service account with permissions (Kubernetes Engine Admin, Compute Admin, etc.)
 
 **🗂️ Project Structure**
+![image](https://github.com/user-attachments/assets/e73dc971-907b-48de-949f-3de7166fd724)
 
-gke-cluster/   #folder 
-├── main.tf
-├── variables.tf
-├── outputs.tf
-├── terraform.tfvars
 
 **✅ Final Thoughts**
 Using Terraform to deploy GKE clusters allows you to manage Kubernetes infrastructure declaratively, reproducibly, and at scale.
